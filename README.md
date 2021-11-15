@@ -1,10 +1,10 @@
 # Generative-OpenCV
 My first experiments with generative art and creative coding. Every project is done using OpenCV as a drawing canvas, intended to improve my image processing skills. Code should be easy to use in your own IDE.
 
-Packages used:
-cv2
-perlin-noise
-numpy
+Packages used:/
+cv2/
+perlin-noise/
+numpy/
 
 
 
@@ -23,7 +23,7 @@ Circle Packing | Creating circles that don't overlap
 
 ## Boid
   
-## Video Writer
+
 
 
 ## Diffusion Limited Aggregation 
@@ -33,6 +33,7 @@ Circle Packing | Creating circles that don't overlap
 ## L-Systems
 ## Diffusion-Reaction
 ## Circle Packing
+## Video Writer
 
 
 ![Flow Diagram](images/flow_diagram.jpg)
