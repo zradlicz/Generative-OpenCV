@@ -35,7 +35,7 @@ Relatively complex flocking behavior arises from these three simple rules.
 
 ## Diffusion Limited Aggregation 
 
-![Flow Diagram](images/flow_diagram.jpg)
+![Growth](https://github.com/zradlicz/DLA/blob/main/fbmgrowth.jpg)
 
 ![Flow Diagram](images/flow_diagram.jpg)
 
