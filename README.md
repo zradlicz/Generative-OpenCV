@@ -44,7 +44,7 @@ Relatively complex flocking behavior arises from these three simple rules.
 Diffusion Limited Aggregation works very simply. A random walker is spawned randomly in the canvas. It walks until it comes adjacent to a white pixel, and then its current pixel is turned white. This is very inefficient algorithm, so the spawn area for each random walker particle was reduced to be a bounding square jsut larger than the current shape. This reduces the distance the random walker has to travel to get to a white pixel.
 
 ## Fractional Brownian Motion
-![alt text](/Fractional_Brownian_Motion/noise1.JPG)
+![alt text](/Fractional Brownian Motion/noise1.JPG)
 
 https://user-images.githubusercontent.com/66800917/141801469-fe97c96b-a2f4-4769-9094-2c38f6ce17cf.mp4
 
