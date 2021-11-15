@@ -10,7 +10,6 @@ My first experiments with generative art and creative coding. Every project is d
 Folder | Contents
 ------------ | -------------
 Boid | A flocking simulation, bird-oids
-Video Writer | Program to write video from folder of images
 Diffusion Limited Aggregation | random walkers colliding with a seed creates fractaline shapes
 Fractional Brownian Motion | A way to create noise
 Mycelium | Implementation of a physarum (slime mold) simulation
@@ -18,6 +17,7 @@ Perlin Noise | Experiments in using perlin noise to create natural looking shape
 L-Systems | L-systems to generate either stochastic or deterministic branching shapes
 Diffusion-Reaction | Simulation of two chemicals diffusing and reacting with eachother
 Circle Packing | Creating circles that don't overlap
+Video Writer | Program to write video from folder of images
 
 ## Boid
   
