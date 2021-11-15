@@ -68,7 +68,7 @@ https://user-images.githubusercontent.com/66800917/141801469-fe97c96b-a2f4-4769-
 
 
 
-Fractional Browninan motion is the type of motion that a random walker exhibits. It is often used in creating noise, which is where the term brown noise comes from. Fractional Brownian Motion can also be used to make perlin noise look more natural.
+Fractional Browninan motion is the type of motion that a random walker (just like the one that was used for DLA) exhibits. It is often used in creating noise, which is where the term brown noise comes from. Fractional Brownian Motion can also be used to make perlin noise look more natural.
 
 ## Mycelium
 
