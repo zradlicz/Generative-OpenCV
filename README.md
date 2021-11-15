@@ -37,7 +37,7 @@ Relatively complex flocking behavior arises from these three simple rules.
 
 ![Growth](https://github.com/zradlicz/DLA/blob/main/fbmgrowth.jpg)
 
-![Flow Diagram](images/flow_diagram.jpg)
+![Growth Zoom](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoom.jpg)
 
 ![Flow Diagram](images/flow_diagram.jpg)
 
