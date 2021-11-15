@@ -26,7 +26,7 @@ Video Writer | Program to write video from folder of images
 
 Boid is short hand for bird-oid, or bird like entity. Each of these boid objects obey 3 very simple rules.
 
-1. Boids adjust to steer towars the center of mass of their close neighbors.
+1. Boids adjust to steer towards the center of mass of their close neighbors.
 2. Boids adjust to steer in the average direction of their close neighbors.
 3. Boids do not get too close to eachother.
 
@@ -69,21 +69,6 @@ Fractional Browninan motion is the type of motion that a random walker exhibits.
 ## Circle Packing
 ## Video Writer
 
-
-
-
-![Output](/images/example_output.JPG)
-
-This image is an example of the output you should get from running AutoTrim. From top left: RGB image, Depth image, shape difference, prediction, thresholded prediction, depth prediciton.
-
-
-![Probe Toolpath](/images/probe_toolpath.JPG)
-
-This image shows the data collected from the probe overlayed onto the shape of the segmented shape.
-
-![Probe Analysis](/images/probe_analyzed.JPG)
-
-This image shows the edge detection working on the probe data.
 
 
 
