@@ -1,7 +1,7 @@
 # Generative-OpenCV
-My first experiments with generative art and creative coding. Every project is done using OpenCV as a drawing canvas, intended to improve my image processing skills. Code should be easy to use in your own IDE.
+My first experiments with generative art and creative coding. Every project is done using OpenCV as a drawing canvas, intended to improve my image processing skills. Code should be easy to use in your own IDE after installing these packages.
 
-`pip install opencv-python`\n
+`pip install opencv-python`
 `pip install perlin-noise`
 
 
