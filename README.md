@@ -34,12 +34,7 @@ Relatively complex flocking behavior arises from these three simple rules.
 
 ## Diffusion-Reaction
 
-![Voronoi](images/flow_diagram.jpg)
-![Loopy Voronoi](images/flow_diagram.jpg)
-![Mitosis Video](images/flow_diagram.jpg)
-![Brain](images/flow_diagram.jpg)
-![Brain/Voronoi](images/flow_diagram.jpg)
-![Full Distrobution](images/flow_diagram.jpg)
+
 
 Diffusion Reaction simulation is a fascinating way to generate organic looking shapes and patterns.  
 The governing equations of this simulation are shown below. They are partial differential equations. A and B can be thought of as 2D distrobutions of two reactive chemicals.
@@ -49,6 +44,13 @@ The governing equations of this simulation are shown below. They are partial dif
 
 The equations both have three terms, a diffusive term, a reactive term, and a feed term. On the first line the diffusive term (Da\*lp_A) is the Laplacian of the image. This is acheived by convolving a 3x3 kernel across the image. It is essential equivalent to a heat dissipation model. The reactive term (A\*B\*B) models the A chemical reacting and turning into the B chemical. The feed term, (f*(1-A)) represents more of chemical A being continuously fed into the system. It is controlled by parameter 'p'. The second line is very similar however the feed term is a kill rate 'k' which is removing a certain amount of B continuously. By altering the parameters 'p' and 'k' many different patterns arise.
 
+![Voronoi](images/flow_diagram.jpg)
+![Loopy Voronoi](images/flow_diagram.jpg)
+![Mitosis Video](images/flow_diagram.jpg)
+![Brain](images/flow_diagram.jpg)
+![Brain/Voronoi](images/flow_diagram.jpg)
+![Full Distrobution](images/flow_diagram.jpg)
+The bottom right image is an image where f varies linearly along the y axis between .01 and .1, and k varies linearly along the x axis between .055 and .07. 
 ## Diffusion Limited Aggregation 
 
 ![Growth](https://github.com/zradlicz/DLA/blob/main/fbmgrowth.jpg)
