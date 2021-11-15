@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import math
 import time
 
+WRITE_IMAGES = False
 
 height = 2000
 width = 2000
@@ -152,7 +153,8 @@ while count < 1000:
         boid.move()
         boid.draw(image)
     cv2.imshow('image',image)
-    cv2.imwrite('boid_images/boid_frame_'+str(count).zfill(4)+'.jpg',image*255)
+    if WRITE_IMAGES:
+        cv2.imwrite('boid_images/boid_frame_'+str(count).zfill(4)+'.jpg',image*255)
     
     count+=1
     print(count)
