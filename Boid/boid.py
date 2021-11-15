@@ -11,7 +11,9 @@ import matplotlib.pyplot as plt
 import math
 import time
 
-WRITE_IMAGES = False
+WRITE_IMAGES = False #Change this to true if you want to save frames to create an animation
+LENGTH = 1000 #This value is the length of the animation
+
 
 height = 2000
 width = 2000
@@ -140,7 +142,7 @@ for num in range(500):
 
 
 count = 0
-while count < 1000:
+while count < LENGTH:
     image[image>0]/=1.5
     key = cv2.waitKey(1)
 
