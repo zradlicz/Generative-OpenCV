@@ -1,10 +1,7 @@
 # Generative-OpenCV
 My first experiments with generative art and creative coding. Every project is done using OpenCV as a drawing canvas, intended to improve my image processing skills. Code should be easy to use in your own IDE.
 
-Packages used:/
-cv2/
-perlin-noise/
-numpy/
+Packages used:cv2,perlin-noise,numpy
 
 
 
@@ -23,22 +20,46 @@ Circle Packing | Creating circles that don't overlap
 
 ## Boid
   
+![Boid Image](images/flow_diagram.jpg)
+![Boid Video](images/flow_diagram.jpg)
 
+Boid is short hand for bird-oid, or bird like entity. Each of these boid objects obey 3 very simple rules.
+
+1. Boids adjust to steer towars the center of mass of their close neighbors.
+2. Boids adjust to steer in the average direction of their close neighbors.
+3. Boids do not get too close to eachother.
+
+Relatively complex flocking behavior arises from these three simple rules.
 
 
 ## Diffusion Limited Aggregation 
+
+![Flow Diagram](images/flow_diagram.jpg)
+
+![Flow Diagram](images/flow_diagram.jpg)
+
+![Flow Diagram](images/flow_diagram.jpg)
 ## Fractional Brownian Motion
+![Flow Diagram](images/flow_diagram.jpg)
 ## Mycelium
+
+![Flow Diagram](images/flow_diagram.jpg)
+
+![Flow Diagram](images/flow_diagram.jpg)
+
+![Flow Diagram](images/flow_diagram.jpg)
+
 ## Perlin Noise
+![Flow Diagram](images/flow_diagram.jpg)
+
+![Flow Diagram](images/flow_diagram.jpg)
 ## L-Systems
 ## Diffusion-Reaction
 ## Circle Packing
 ## Video Writer
 
 
-![Flow Diagram](images/flow_diagram.jpg)
 
-This is a flow diagram of all of the software. Use it to follow along with the AutoTrim main loop.
 
 ![Output](/images/example_output.JPG)
 
