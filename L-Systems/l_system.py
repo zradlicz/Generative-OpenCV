@@ -12,16 +12,43 @@ import numpy as np
 import random as rand
 import math
 
-def update(str):
-    newstr = ''
-    for char in str:
-        if char == 'F':
-            newstr += 'FF'
-        elif char == 'X':
-            newstr += 'F+[[-X]-X]-FL[-FXL]+XL'
-        else:
-            newstr+=char
-    return newstr
+
+class lsystem():
+    def __init__(self,instructions,chars,axioms):
+        self.instructions = instructions
+        self.chars = chars
+        self.axioms = axioms
+        #self.functions = functions
+    def update(self,n):
+        
+        for num in range(n):
+            new_instructions = ''
+            for char in self.instructions:
+                for index in range(len(self.chars)):
+                    if char == self.chars[index]:
+                        new_instructions += self.axioms[index]
+            self.instructions = new_instructions
+    # def interpret(self):
+    #     for char in self.instructions:
+    #         flag = False
+    #         for index in range(len(self.chars)):
+    #             if char == self.chars[index]:
+    #                 flag = True
+    #                 self.functions[index]()
+                
+                    
+            
+
+# def update(str):
+#     newstr = ''
+#     for char in str:
+#         if char == 'F':
+#             newstr += 'FF'
+#         elif char == 'X':
+#             newstr += 'F+[[-X]-X]-FL[-FXL]+XL'
+#         else:
+#             newstr+=char
+#     return newstr
         
 
 class turt():
@@ -76,14 +103,17 @@ def interpret(string,turt):
             
 black = np.ones((1000,1000,3))
 drawer = turt(black)
-instructions = 'X'
+tree = lsystem('X',['F','L','X','+','-','[',']'],['FF','L','F+[[-X]-X]-FL[-FXL]+XL','+','-','[',']'])
+tree.update(7)
 
-for num in range(7):
-    instructions = update(instructions)
+# instructions = 'X'
+
+# for num in range(7):
+#     instructions = update(instructions)
 
 #instructions = 'F+[[X]-X]-F[-FX]+X'
 
-interpret(instructions,drawer)
+interpret(tree.instructions,drawer)
 
 cv2.imshow('test',drawer.image)
     
