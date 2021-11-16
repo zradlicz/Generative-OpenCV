@@ -99,7 +99,14 @@ These images were created by finding the gradient of a perlin noise map, and get
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree4034.png" width="400">
 <p/>
 
-L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness.
+L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness. L systems work by having a start seed, and then a list of axioms by which each variable will change into. This tree generation l-system for example contains 2 variables and 5 constants.  
+
+-Variables: X F
+-Constants: + - [ ] L
+-Start: X
+-Rules: (X → F+[[X]-X]-F[-FX]+X), (F → FF)
+
+The class lsystem takes all of these as arguments. The update method then iterates through the string and recursively updates it. A separate, standalone funtion has to be written to interpret the string.
 
 ## Circle Packing
 
@@ -107,6 +114,8 @@ L-systems were first created as a way to model biological growth in algae. Here 
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Circle%20Packing/big.png" width="400">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Circle%20Packing/small.png" width="400">
 <p/>
+
+Circle packing actually seems to be a fairly complex problem to do efficiently. My method is terribly innefficient, and uses a lot of computationally intense algorithms that are built into OpenCV. It would be a fun project to attempt to make this gereration time optimal.
 
 ## Video Writer
 Video Writer is a simple program to create an avi format video of a series of frames in a folder. Simply put multiple pngs in a folder and run the program with the corret folder path.
