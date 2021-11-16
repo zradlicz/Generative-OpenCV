@@ -55,7 +55,7 @@ The bottom right image is an image where f varies linearly along the y axis betw
 The potential for different patterns is vast, and I need to explore it more thoroughly in the future.
 
 ## Diffusion Limited Aggregation 
-
+![alt text](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowth.jpg)
 <p float="left">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoomzoom.jpg" width="400">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoom.jpg" width="400">
