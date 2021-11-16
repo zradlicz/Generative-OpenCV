@@ -57,8 +57,8 @@ The potential for different patterns is vast, and I need to explore it more thor
 ## Diffusion Limited Aggregation 
 ![alt text](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowth.jpg)
 <p float="left">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoomzoom.jpg" width="400">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoom.jpg" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoomzoom.jpg" width="400">
 <p/>
 
 
