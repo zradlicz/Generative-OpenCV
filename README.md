@@ -96,6 +96,7 @@ These images were created by finding the gradient of a perlin noise map, and get
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree753.png" width="400">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree1293.png" width="400">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree2900.png" width="400">
+  <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree4034.png" width="400">
 <p/>
 
 L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness.
