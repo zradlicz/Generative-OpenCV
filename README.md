@@ -80,24 +80,24 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 
 ## Perlin Noise
 <p float="left">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_478.png" width="500">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_607.png" width="500">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_751.png" width="500">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_478.png" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_607.png" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_751.png" width="400">
 <p/>
 
 <p float="left">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_621.png" width="500">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_848.png" width="500">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_885.png" width="500">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_621.png" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_848.png" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_885.png" width="400">
 <p/>
 
 These images were created by finding the gradient of a perlin noise map, and getting the magnitude and orientation. Particles were then assigned a velocity based on the magnitude and orientation. By playing around with parameters many different types of images can be created. 
 
 ## L-Systems
 <p float="left">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree753.png" width="500">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree1293.png" width="500">
-<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree2900.png" width="500">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree753.png" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree1293.png" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree2900.png" width="400">
 <p/>
 
 L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness.
