@@ -100,9 +100,10 @@ These images were created by finding the gradient of a perlin noise map, and get
 <p/>
 
 L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness.
-## Diffusion-Reaction
+
 ## Circle Packing
 ## Video Writer
+Video Writer is a simple program to create an avi format video of a series of frames in a folder. Simply put multiple pngs in a folder and run the program with the corret folder path.
 
 
 
