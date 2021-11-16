@@ -56,7 +56,7 @@ The potential for different patterns is vast, and I need to explore it more thor
 
 ## Diffusion Limited Aggregation 
 
-![Growth](https://github.com/zradlicz/DLA/blob/main/fbmgrowth.jpg)
+![Growth](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowth.jpg)
 
 ![Growth Zoom](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoom.jpg)
 
