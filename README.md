@@ -102,6 +102,12 @@ These images were created by finding the gradient of a perlin noise map, and get
 L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness.
 
 ## Circle Packing
+
+<p float="left">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Circle%20Packing/big.png" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Circle%20Packing/small.png" width="400">
+<p/>
+
 ## Video Writer
 Video Writer is a simple program to create an avi format video of a series of frames in a folder. Simply put multiple pngs in a folder and run the program with the corret folder path.
 
