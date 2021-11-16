@@ -90,6 +90,7 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_848.png" width="320">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_885.png" width="320">
 <p/>
+
 ## L-Systems
 <p float="left">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree753.png" width="320">
