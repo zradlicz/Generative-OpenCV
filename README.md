@@ -88,6 +88,8 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree1293.png" width="320">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree2900.png" width="320">
 <p/>
+
+L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness.
 ## Diffusion-Reaction
 ## Circle Packing
 ## Video Writer
