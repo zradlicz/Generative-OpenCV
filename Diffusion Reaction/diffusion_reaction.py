@@ -12,12 +12,12 @@ import math
 import random as rand
 import cv2
 
-HEIGHT = 500
-WIDTH = 500
+HEIGHT = 1000
+WIDTH = 1000
 
 A = np.ones((HEIGHT,WIDTH))
 B = np.zeros((HEIGHT,WIDTH))
-for num in range(500):
+for num in range(10):
     #B[rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)] = 1
     cv2.circle(B,(rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)),1,(1,1,1),-1)
 #cv2.circle(B,(1000,1000),10,(1,1,1),-1)
@@ -40,14 +40,23 @@ Db = .5
 #f = .0695
 #k = .0602 #mix between brain and voronoi
 
+#f =.022
+#k = .049 #cool
+
+#f=.022
+#k=.051 #another cool
+
+f = .02
+k = .049 #kinda crazy spirals, insane coolness
+
 def get_gradient_2d(start, stop, width, height, is_horizontal):
     if is_horizontal:
         return np.tile(np.linspace(start, stop, width), (height, 1))
     else:
         return np.tile(np.linspace(start, stop, height), (width, 1)).T
     
-f = get_gradient_2d(.01,.1,WIDTH,HEIGHT,False) #pattern map
-k = get_gradient_2d(.055,.07,WIDTH,HEIGHT,True)
+#f = get_gradient_2d(.01,.1,WIDTH,HEIGHT,False) #pattern map
+#k = get_gradient_2d(.055,.07,WIDTH,HEIGHT,True)
 
 
 
