@@ -56,9 +56,10 @@ The potential for different patterns is vast, and I need to explore it more thor
 
 ## Diffusion Limited Aggregation 
 
-![Growth](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowth.jpg)
-
-![Growth Zoom](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoom.jpg)
+<p float="left">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoomzoom.jpg" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoom.jpg" width="400">
+<p/>
 
 
 Diffusion Limited Aggregation works very simply. A random walker is spawned randomly in the canvas. It walks until it comes adjacent to a white pixel, and then its current pixel is turned white. This is very inefficient algorithm, so the spawn area for each random walker particle was reduced to be a bounding square jsut larger than the current shape. This reduces the distance the random walker has to travel to get to a white pixel.
