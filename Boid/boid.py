@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu May 27 17:16:51 2021
+Created on Tue Nov 16 08:03:30 2021
 
+@author: Zach Radlicz
+"""
+
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 27 17:16:51 2021
 @author: zradlicz
 """
 
@@ -10,10 +16,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 import time
+import random as rand
 
-WRITE_IMAGES = False #Change this to true if you want to save frames to create an animation
-LENGTH = 1000 #This value is the length of the animation
-
+WRITE_IMAGE = False
 
 height = 2000
 width = 2000
@@ -142,7 +147,7 @@ for num in range(500):
 
 
 count = 0
-while count < LENGTH:
+while count < 1000:
     image[image>0]/=1.5
     key = cv2.waitKey(1)
 
@@ -155,15 +160,9 @@ while count < LENGTH:
         boid.move()
         boid.draw(image)
     cv2.imshow('image',image)
-    if WRITE_IMAGES:
+    if WRITE_IMAGE:
         cv2.imwrite('boid_images/boid_frame_'+str(count).zfill(4)+'.png',image*255)
     
     count+=1
     print(count)
     
-
-    
-    
-        
-    
-        
