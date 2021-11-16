@@ -79,9 +79,17 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 ![Flow Diagram](images/flow_diagram.jpg)
 
 ## Perlin Noise
-![Flow Diagram](images/flow_diagram.jpg)
+<p float="left">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_478.png" width="320">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_607.png" width="320">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_621.png" width="320">
+<p/>
 
-![Flow Diagram](images/flow_diagram.jpg)
+<p float="left">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_751.png" width="320">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_848.png" width="320">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Perlin%20Noise/perlin_trail_885.png" width="320">
+<p/>
 ## L-Systems
 <p float="left">
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree753.png" width="320">
