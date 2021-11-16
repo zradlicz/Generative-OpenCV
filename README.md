@@ -83,6 +83,9 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 
 ![Flow Diagram](images/flow_diagram.jpg)
 ## L-Systems
+![alt text](https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree753.png)
+![alt text](https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree1293.png)
+![alt text](https://github.com/zradlicz/Generative-OpenCV/blob/main/L-Systems/tree2900.png)
 ## Diffusion-Reaction
 ## Circle Packing
 ## Video Writer
