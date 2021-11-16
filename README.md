@@ -57,7 +57,6 @@ The bottom right image is an image where f varies linearly along the y axis betw
 
 ![Growth Zoom](https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion-Limited%20Aggregation/fbmgrowthzoom.jpg)
 
-![Flow Diagram](images/flow_diagram.jpg)
 
 Diffusion Limited Aggregation works very simply. A random walker is spawned randomly in the canvas. It walks until it comes adjacent to a white pixel, and then its current pixel is turned white. This is very inefficient algorithm, so the spawn area for each random walker particle was reduced to be a bounding square jsut larger than the current shape. This reduces the distance the random walker has to travel to get to a white pixel.
 
@@ -72,11 +71,13 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 
 ## Mycelium
 
-![Flow Diagram](images/flow_diagram.jpg)
+![Mycelium Square Video](images/flow_diagram.jpg)
 
-![Flow Diagram](images/flow_diagram.jpg)
+![Mycelium Old Man Video](images/flow_diagram.jpg)
 
-![Flow Diagram](images/flow_diagram.jpg)
+![Mycelium Map Video](images/flow_diagram.jpg)
+
+The physarum simulation is also a surprising way to generate organic shapes. Each particle follows one simple rule. It has 3 sensors at the front of its head, one angled slightly left, one angled slightly right, and one straight ahead. If the sensor on the right detects a white path, then it will turn towards the path. Same on the right side. If the center sensor detects a white path then it will continue on the path. There are so many parameters to play with in theis code that I will definitely come back to this one.
 
 ## Perlin Noise
 <p float="left">
