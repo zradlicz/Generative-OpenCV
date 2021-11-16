@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov  8 11:39:44 2021
+
 @author: Zach Radlicz
 """
 
@@ -11,15 +12,15 @@ import math
 import random as rand
 import cv2
 
-HEIGHT = 2000
-WIDTH = 2000
+HEIGHT = 500
+WIDTH = 500
 
 A = np.ones((HEIGHT,WIDTH))
 B = np.zeros((HEIGHT,WIDTH))
-#for num in range(500):
+for num in range(500):
     #B[rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)] = 1
-    #cv2.circle(B,(rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)),1,(1,1,1),-1)
-cv2.circle(B,(1000,1000),10,(1,1,1),-1)
+    cv2.circle(B,(rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)),1,(1,1,1),-1)
+#cv2.circle(B,(1000,1000),10,(1,1,1),-1)
 Da = 1.
 Db = .5
 
@@ -33,8 +34,8 @@ Db = .5
 # f = .0367
 # k = .0649 #mitosis
 
-f = .0545
-k = .062 #brain
+#f = .0545
+#k = .062 #brain
 
 #f = .0695
 #k = .0602 #mix between brain and voronoi
@@ -45,8 +46,8 @@ def get_gradient_2d(start, stop, width, height, is_horizontal):
     else:
         return np.tile(np.linspace(start, stop, height), (width, 1)).T
     
-#f = get_gradient_2d(.01,.1,WIDTH,HEIGHT,False) #pattern map
-#k = get_gradient_2d(.055,.07,WIDTH,HEIGHT,True)
+f = get_gradient_2d(.01,.1,WIDTH,HEIGHT,False) #pattern map
+k = get_gradient_2d(.055,.07,WIDTH,HEIGHT,True)
 
 
 
@@ -101,3 +102,4 @@ while(True):
     if key & 0xFF == ord('q') or key == 27:
                 cv2.destroyAllWindows()
                 break
+            
