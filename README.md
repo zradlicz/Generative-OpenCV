@@ -101,10 +101,10 @@ These images were created by finding the gradient of a perlin noise map, and get
 
 L-systems were first created as a way to model biological growth in algae. Here it is used to generate trees with some randomness. L systems work by having a start seed, and then a list of axioms by which each variable will change into. This tree generation l-system for example contains 2 variables and 5 constants.  
 
--Variables: X F
--Constants: + - [ ] L
--Start: X
--Rules: (X → F+[[X]-X]-F[-FX]+X), (F → FF)
+-Variables: X F  
+-Constants: + - [ ] L  
+-Start: X  
+-Rules: (X → F+[[X]-X]-F[-FX]+X), (F → FF)  
 
 The class lsystem takes all of these as arguments. The update method then iterates through the string and recursively updates it. A separate, standalone funtion has to be written to interpret the string.
 
