@@ -5,7 +5,7 @@ Created on Mon Nov  8 07:19:25 2021
 @author: Zach Radlicz
 """
 
-from test import PerlinNoise
+from perlin_noise import PerlinNoise
 import matplotlib.pyplot as plt
 import cv2
 import numpy as np
