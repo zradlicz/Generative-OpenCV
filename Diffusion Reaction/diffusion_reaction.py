@@ -17,10 +17,21 @@ WIDTH = 1000
 
 A = np.ones((HEIGHT,WIDTH))
 B = np.zeros((HEIGHT,WIDTH))
-for num in range(10):
+#for num in range(10):
     #B[rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)] = 1
-    cv2.circle(B,(rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)),1,(1,1,1),-1)
-#cv2.circle(B,(1000,1000),10,(1,1,1),-1)
+    #cv2.circle(B,(rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)),1,(1,1,1),-1)
+cv2.circle(B,(450,500),1,(1,1,1),-1)
+cv2.circle(B,(550,500),1,(1,1,1),-1)
+cv2.circle(B,(500,450),1,(1,1,1),-1)
+cv2.circle(B,(500,550),1,(1,1,1),-1)
+cv2.circle(B,(500,500),1,(1,1,1),-1)
+
+# cv2.circle(B,(225,250),10,(1,1,1),-1)
+# cv2.circle(B,(275,250),10,(1,1,1),-1)
+# cv2.circle(B,(250,225),10,(1,1,1),-1)
+# cv2.circle(B,(250,275),10,(1,1,1),-1)
+# cv2.circle(B,(250,250),10,(1,1,1),-1)
+
 Da = 1.
 Db = .5
 
@@ -47,7 +58,7 @@ Db = .5
 #k=.051 #another cool
 
 f = .02
-k = .049 #kinda crazy spirals, insane coolness
+k = .049 #kinda crazy spirals, insane coolness make sure to use 1000x1000
 
 def get_gradient_2d(start, stop, width, height, is_horizontal):
     if is_horizontal:
