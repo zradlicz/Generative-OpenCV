@@ -50,7 +50,10 @@ The equations both have three terms, a diffusive term, a reactive term, and a fe
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Diffusion%20Reaction/map.png" width="400">
 <p/>
 
-The bottom right image is an image where f varies linearly along the y axis between .01 and .1, and k varies linearly along the x axis between .055 and .07. 
+The bottom right image is an image where f varies linearly along the y axis between .01 and .1, and k varies linearly along the x axis between .055 and .07.
+
+The potential for different patterns is vast, and I need to explore it more thoroughly in the future.
+
 ## Diffusion Limited Aggregation 
 
 ![Growth](https://github.com/zradlicz/DLA/blob/main/fbmgrowth.jpg)
