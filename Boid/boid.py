@@ -156,7 +156,7 @@ while count < LENGTH:
         boid.draw(image)
     cv2.imshow('image',image)
     if WRITE_IMAGES:
-        cv2.imwrite('boid_images/boid_frame_'+str(count).zfill(4)+'.jpg',image*255)
+        cv2.imwrite('boid_images/boid_frame_'+str(count).zfill(4)+'.png',image*255)
     
     count+=1
     print(count)
