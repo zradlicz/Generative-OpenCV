@@ -41,10 +41,14 @@ class mb():
         self.img = cv2.cvtColor(self.img,cv2.COLOR_BGR2HSV)
         return self.img
     def update(self,x1,x2,y1,y2,MAX_ITER):
-        self.rst = self.rst+(x1/WIDTH)*(self.ren-self.rst)
-        self.ren = self.rst+(x2/WIDTH)*(self.ren-self.rst)
-        self.ist = self.rst+(y2/HEIGHT)*(self.ren-self.rst)
-        self.ien = self.rst+(y1/HEIGHT)*(self.ren-self.rst)
+        rst = self.rst
+        ren = self.ren
+        ist = self.ist
+        ien = self.ien
+        self.rst = rst+(x1/WIDTH)*(ren-rst)
+        self.ren = rst+(x2/WIDTH)*(ren-rst)
+        self.ist = ist+(y2/HEIGHT)*(ien-ist)
+        self.ien = ist+(y1/HEIGHT)*(ien-ist)
 
 
 refPt = []
@@ -90,7 +94,7 @@ def click_and_crop(event, x, y, flags, param):
         #cv2.setMouseCallback('image', click_and_crop)
         #cv2.waitKey(0)
         
-mandelbrot = mb(-2,1,-1,1,80)
+mandelbrot = mb(-2,1,-1,1,255)
 mandelbrot.draw()
 while True:
     
