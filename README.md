@@ -78,6 +78,11 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 
 ## Mycelium
 
+<p float="left">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Mycelium/mycelium_frame_0125.jpg" width="400">
+<img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Mycelium/mycelium_frame_0130.jpg" width="400">
+<p/>
+
 ![Mycelium Square Video](images/flow_diagram.jpg)
 
 ![Mycelium Old Man Video](images/flow_diagram.jpg)
