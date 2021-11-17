@@ -21,8 +21,11 @@ Video Writer | Program to write video from folder of images
 
 ## Boid
   
-![Boid Image](images/flow_diagram.jpg)
-![Boid Video](images/flow_diagram.jpg)
+
+
+https://user-images.githubusercontent.com/66800917/142296669-ca00e59f-a25e-4289-aafa-cf118ac57dea.mp4
+
+
 
 Boid is short hand for bird-oid, or bird like entity. Each of these boid objects obey 3 very simple rules.
 
