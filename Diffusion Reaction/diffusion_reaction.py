@@ -12,19 +12,19 @@ import math
 import random as rand
 import cv2
 
-HEIGHT = 1000
-WIDTH = 1000
+HEIGHT = 500
+WIDTH = 500
 
 A = np.ones((HEIGHT,WIDTH))
 B = np.zeros((HEIGHT,WIDTH))
 #for num in range(10):
     #B[rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)] = 1
     #cv2.circle(B,(rand.randrange(0,HEIGHT,1),rand.randrange(0,WIDTH,1)),1,(1,1,1),-1)
-cv2.circle(B,(450,500),1,(1,1,1),-1)
-cv2.circle(B,(550,500),1,(1,1,1),-1)
-cv2.circle(B,(500,450),1,(1,1,1),-1)
-cv2.circle(B,(500,550),1,(1,1,1),-1)
-cv2.circle(B,(500,500),1,(1,1,1),-1)
+# cv2.circle(B,(450,500),1,(1,1,1),-1)
+# cv2.circle(B,(550,500),1,(1,1,1),-1)
+# cv2.circle(B,(500,450),1,(1,1,1),-1)
+# cv2.circle(B,(500,550),1,(1,1,1),-1)
+# cv2.circle(B,(500,500),1,(1,1,1),-1)
 
 # cv2.circle(B,(225,250),10,(1,1,1),-1)
 # cv2.circle(B,(275,250),10,(1,1,1),-1)
@@ -32,12 +32,24 @@ cv2.circle(B,(500,500),1,(1,1,1),-1)
 # cv2.circle(B,(250,275),10,(1,1,1),-1)
 # cv2.circle(B,(250,250),10,(1,1,1),-1)
 
+num_pts = 100
+indices = np.arange(0, num_pts, dtype=float) + .5
+
+r = np.sqrt(indices/num_pts)
+theta = np.pi * (1 + 5**0.5) * indices
+#points = (r*np.cos(theta),r*np.sin(theta))
+x = ((WIDTH/3)*r*(np.cos(theta))+(WIDTH/2))
+y = ((HEIGHT/3)*r*(np.sin(theta))+(HEIGHT/2))
+
+for index in range(len(x)):
+    cv2.circle(B,(int(x[index]),int(y[index])),1,(1,1,1),-1)
+
 Da = 1.
 Db = .5
 
 
-#f = .1
-#k = .055 #giraffe/voronoi
+f = .1
+k = .055 #giraffe/voronoi
 
 #f = .094
 #k = .056  #loopy voronoi
@@ -57,8 +69,8 @@ Db = .5
 #f=.022
 #k=.051 #another cool
 
-f = .02
-k = .049 #kinda crazy spirals, insane coolness make sure to use 1000x1000
+#f = .02
+#k = .049 #kinda crazy spirals, insane coolness make sure to use 1000x1000
 
 def get_gradient_2d(start, stop, width, height, is_horizontal):
     if is_horizontal:
@@ -69,6 +81,20 @@ def get_gradient_2d(start, stop, width, height, is_horizontal):
 #f = get_gradient_2d(.01,.1,WIDTH,HEIGHT,False) #pattern map
 #k = get_gradient_2d(.055,.07,WIDTH,HEIGHT,True)
 
+#x_axis = np.linspace(-.3, .3, WIDTH)
+#y_axis = np.linspace(-.3, .3, HEIGHT)
+
+#xx, yy = np.meshgrid(x_axis, y_axis)
+#arr = np.sqrt((xx) ** 2 + (yy) ** 2)
+#f = np.copy(arr)
+
+#x_axis = np.linspace(-.07, .07, WIDTH)
+#y_axis = np.linspace(-.07, .07, HEIGHT)
+
+#xx, yy = np.meshgrid(x_axis, y_axis)
+#arr = np.sqrt((xx) ** 2 + (yy) ** 2)
+
+#k = np.copy(arr)
 
 
 dt = 1
