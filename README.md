@@ -83,7 +83,7 @@ Fractional Browninan motion is the type of motion that a random walker (just lik
 <img src="https://github.com/zradlicz/Generative-OpenCV/blob/main/Mycelium/mycelium_frame_0130.jpg" width="400">
 <p/>
 
-The physarum simulation is also a surprising way to generate organic shapes. Each particle follows one simple rule. It has 3 sensors at the front of its head, one angled slightly left, one angled slightly right, and one straight ahead. If the sensor on the right detects a white path, then it will turn towards the path. Same on the right side. If the center sensor detects a white path then it will continue on the path. There are so many parameters to play with in theis code that I will definitely come back to this one.
+The physarum simulation is also a surprising way to generate organic shapes. Each particle follows one simple rule. It has 3 sensors at the front of its head, one angled slightly left, one angled slightly right, and one straight ahead. If the sensor on the right detects a white path, then it will turn towards the path. Same on the left side. If the center sensor detects a white path then it will continue on the path. There are so many parameters to play with in theis code that I will definitely come back to this one.
 
 ## Perlin Noise
 <p float="left">
